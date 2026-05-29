@@ -174,7 +174,7 @@ export default function WebcallPage() {
                   value={formData.company}
                   onChange={handleChange}
                   className="w-full bg-black/40 border border-white/10 rounded-xl pl-11 pr-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500/50 transition-colors"
-                  placeholder="LG CNS"
+                  placeholder="회사명을 입력해주세요"
                 />
               </div>
             </div>
