@@ -295,6 +295,9 @@ export default function WebcallPage() {
                 )}
               </span>
             </motion.button>
+            <p className="text-center text-xs text-gray-500 mt-3">
+              입력하신 정보는 상담 용도로 1년 후에 자동 삭제 됩니다.
+            </p>
           </form>
         </motion.div>
       </motion.div>
