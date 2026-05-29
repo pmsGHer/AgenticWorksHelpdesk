@@ -87,9 +87,9 @@ export default function WebcallPage() {
           >
             <CheckCircle2 size={40} />
           </motion.div>
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4">접수 완료되었습니다</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4">STS 콜봇 연결중</h2>
           <p className="text-gray-400 mb-8">
-            담당자가 요청순으로 확인 후 입력해주신 연락처로 빠르게 회신 드리겠습니다.
+            실시간 음성안내 콜봇으로 연결 중이오니 잠시만 기다려 주시기 바랍니다.
           </p>
           <button
             onClick={() => {
@@ -98,7 +98,7 @@ export default function WebcallPage() {
             }}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-xl transition-all"
           >
-            새로운 문의 남기기
+            연결 끊기
           </button>
         </motion.div>
       </main>
