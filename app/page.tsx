@@ -128,12 +128,17 @@ export default function WebcallPage() {
           >
             {/* CI: AgenticWorks Helpdesk */}
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg">
                 <Headset className="text-white" size={24} />
               </div>
-              <span className="text-xl font-semibold tracking-tight text-white/90">
-                AgenticWorks Helpdesk
-              </span>
+              <div className="flex items-center gap-2">
+                <span className="text-xl font-semibold tracking-tight text-white/90">
+                  AgenticWorks Helpdesk
+                </span>
+                <span className="px-2 py-0.5 rounded-md bg-red-500/10 text-red-400 text-xs font-bold tracking-wider border border-red-500 uppercase">
+                  dev
+                </span>
+              </div>
             </div>
 
             <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight mb-6 leading-tight">
